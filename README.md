@@ -1,2 +1,2 @@
 # web-devlopment-tasks
-i ghad created a landing page, portfolio, temparature converter 
+i had created a landing page, portfolio, temparature converter 
