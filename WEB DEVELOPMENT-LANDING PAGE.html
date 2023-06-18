@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Development Internship Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('web.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2196F3;
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #0D47A1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Web Development Internship Registration</h1>
+    <p>Join our web development internship program to enhance your skills and gain real-world experience.</p>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Phone Number" required>
+      <input type="text" placeholder="University/College" required>
+      <input type="text" placeholder="Major/Field of Study" required>
+      <input type="text" placeholder="Portfolio Website (if applicable)">
+      <button type="submit" class="cta-button">Register Now</button>
+    </form>
+  </div>
+</body>
+</html>
